@@ -1,0 +1,16 @@
+{
+  "name": "freelance-sass",
+  "version": "1.0.0",
+  "description": "by Cameron Button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
