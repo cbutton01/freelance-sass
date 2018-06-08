@@ -6,10 +6,16 @@
   "scripts": {
     "build": "webpack"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/cbutton01/freelance-sass"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "html-webpack-plugin": "^3.0.6",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9"
   }
