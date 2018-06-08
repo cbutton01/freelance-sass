@@ -4,19 +4,25 @@
   "description": "by Cameron Button",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open",
+    "lint": "eslint src/*.js"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/cbutton01/freelance-sass"
-},
+    "type": "git",
+    "url": "https://github.com/cbutton01/freelance-sass"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.18",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
     "html-webpack-plugin": "^3.0.6",
     "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.9"
-  }
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {}
 }
